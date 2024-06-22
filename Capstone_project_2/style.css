@@ -1,0 +1,170 @@
+.container > .card-1 {
+    background-color: rgba(5, 93, 165, 0.721);
+    height: 45rem;
+    display: flex;
+    flex-direction: column;
+}
+
+#profile_pic {
+    margin-top: 105px;
+    margin-left: 40rem;
+    border-radius: 80px;
+    width: 10rem;
+}
+
+#profile_name {
+    margin: auto;
+    padding: 25px;
+    text-align: center;
+    margin-top: 150px;
+    font-style: italic;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: rgb(12, 93, 139);
+    background-color: rgb(231, 232, 232);
+    border-radius: 22px;
+    width: 600px;
+    letter-spacing: 5px;
+}
+#full_stack {
+    text-align: center;
+    font-style: italic;
+    word-spacing: 70px;
+    letter-spacing: 12px;
+    margin-top: 100px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: rgb(10, 99, 141);
+    background-color: rgb(250, 250, 250);
+}
+
+#tool_pic {
+    width: 650px;
+    margin: auto;
+    margin-top: 100px;
+    height: 400px;
+    border-radius: 30px;
+}
+
+.container > .card-2 {
+    /* width: 90rem; */
+    background-color: rgba(255, 255, 255, 0.721);
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.card-2>h1{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    letter-spacing: 5px;
+}
+.card-2>p {
+    width: 650px;
+    margin: auto;
+    font-size: medium;
+    letter-spacing: 2px;
+}
+#dot {
+    text-align: center;
+    margin-top: 150px;
+    letter-spacing: 5px;
+    color: rgb(162, 171, 171);
+}
+
+.container > .card-3 {
+    display: flex;
+    background-color: rgba(255, 255, 255, 0.721);
+}
+
+.skill_heading {
+    font-size: xx-large;
+    text-align: center;
+    margin-top: 50px;
+    text-decoration: underline;
+}
+
+.card-3 > ul {
+    margin: auto;
+    letter-spacing: 2px;
+}
+
+.card-3 > #tech-skill {
+    margin-right: -119px;
+}
+.card-3 > ul > h3 {
+    font-size: x-large;
+    text-decoration: underline;
+}
+li{
+    margin-top: 10px;
+    font-size: large;
+}
+
+
+#soft-skill {
+    margin-top: 70px;
+}
+
+.card-4 {
+    background-color: rgba(24, 73, 114, 0.721);
+    height: 32rem;
+}
+
+.card-4>h1{
+    text-align: center;
+    color: aliceblue;
+    margin-bottom: 50px;
+    margin-left: 10px;
+}
+
+#btn-contact {
+    display: block;
+    padding: 15px;
+    font-size: x-large;
+    color: white;
+    margin: auto;
+    text-align: center;
+    margin-bottom: 200px;
+    background-color: rgb(40, 202, 220);
+    border-radius: 10px;
+    border: none;
+}
+a {
+    text-decoration: none;
+}
+
+#contact-link {
+    color: aliceblue;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#contact-link >li>a {
+    text-decoration: none;
+    color: rgb(26, 186, 255);
+}
+
+#contact-link >li>a:hover {
+    color: white;
+}
+
+#btn-contact:hover {
+    background-color: rgb(255, 255, 255);
+    color: rgb(2, 211, 211);
+    transition-duration: 0.5s;
+}
+
+.card-4 > p {
+    text-align: center;
+    color: rgb(212, 212, 212);
+}
+
+
+/* ------for mobile screen----*/
+@media only screen and (max-width:426px) {
+    
+}
+
+
+/* -------for tablet screen-------- */
+@media only screen and (max-width:800px) {
+} 
